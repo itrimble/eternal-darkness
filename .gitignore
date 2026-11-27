@@ -4,8 +4,6 @@
 /dist/
 /dist-tvos/
 /dist-deck/
-# The game has its own repository one level down.
-/src/
 # Build logs written into the project root, and Finder's droppings.
 *.log
 .DS_Store
