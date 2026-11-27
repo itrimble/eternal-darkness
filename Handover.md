@@ -71,7 +71,7 @@ Package and install:
 PROFILE=/tmp/tvos-test/build/Build/Products/Debug-appletvos/HelloTV.app/embedded.mobileprovision \
 SIGN_IDENTITY="Apple Development: Ian Trimble (X6SA7HFNXJ)" TEAM_ID=CLDQBGZBDU \
   ./src/tools/tvos/make-tvos-app.sh            # INCLUDE_TEXTURES=1 TEXTURES_DIR=… SETTINGS_FILE=… optional
-xcrun devicectl device install app --device 439e1c1761ed521e018148c1979e8b9af63e99d8 "dist-tvos/Eternal Darkness TV.app"
+xcrun devicectl device install app --device <apple-tv-udid> "dist-tvos/Eternal Darkness TV.app"
 ```
 
 Run and observe:
